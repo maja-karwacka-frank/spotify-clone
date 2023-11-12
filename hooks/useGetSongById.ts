@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSessionContext } from '@supabase/auth-helpers-react';
 
 import { Song } from '@/types';
-import { set } from 'react-hook-form';
 import toast from 'react-hot-toast';
 
 const useGetSongById = (id?: string) => {
